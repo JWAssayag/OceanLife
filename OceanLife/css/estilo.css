@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+@font-face {
+	font-family: 'FonteLogo';
+	src:url('../fontes/bubblegum-sans-regular.otf');
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("../imagens/background.jpg" ) ;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	color: rgba(0,0,0,1);
+	
+}
+
+div#interface{
+	color: #D3FFFF;
+	width: 900px;
+	background-color: #0A6AA6;
+	margin: 0px auto 0px auto;
+	box-shadow: 1px 1px 15px rgba(0,0,0,1);
+	padding: 10px;
+	
+}
+
+p{
+	text-align: justify;
+	text-indent: 50px;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+}
+a:hover {
+	text-decoration: none;
+	
+}
+header#cabecalho img#icone {
+	position: absolute;
+	left: 920px;
+	top: 70px;
+}
+
+header#cabecalho {
+	border-bottom: 1px #000000 solid;
+	height: 55px;
+	
+}
+
+header#cabecalho h1{
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 30pt;
+	color:  white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	padding-left: 5px;
+	margin: 5px;
+	
+}
+header#cabecalho h2{
+	font-family: 'Titillium Web' , sans-serif;
+	font-size: 15pt;
+	color:#000000;
+	padding: 0px;
+	margin-top: 0px;
+	
+}
+
+/*Formatação do Menu*/
+nav#menu {
+	display:block;
+}
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 7px;
+	left: 580px;
+}
+nav#menu li{
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin:2px;
+	transition: background-color 1s;
+	border-radius: 15px 30px 15px 30px;
+}
+nav#menu li:hover{
+	background-color: #606060;
+	border-radius: 30px 15px 30px 15px;
+}
+nav#menu h1{
+	display: none;
+}
+nav#menu a{
+	color: #000000;
+	text-decoration: none;
+}
+nav#menu a:hover{
+	color:#ffffff;
+	text-decoration: underline;
+}
+
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #000000;
+}
+footer#rodape p {
+	text-align: center;
+}
+footer#rodape p#social{
+	margin-top: -15px;
+}

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+form {
+	width: 300px;
+	margin: auto;
+}
+
+select{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 20pt;
+}
+.descricaoImagens{
+  display: none;
+}

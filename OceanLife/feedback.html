@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>OceanLife.com.br</title>
+	<link rel = "shortcut icon" type = "imagem/png" href = "imagens/water2.png"/>
+	<link rel="stylesheet" href="css/estilo.css">	
+	<link rel="stylesheet" href="css/feedback.css">
+</head>
+<body>
+<div id="interface"style= "text-align:left">
+	
+	<header id="cabecalho"> 
+	<hgroup>
+	<h1><a href="home.html" >OCEAN LIFE</a></h1>
+	<!-- <h2>slogan </h2> -->
+	</hgroup>
+	
+	<!-- <img id="icone" src=""> -->
+	<nav id="menu">	
+	<h1>Menu Principal</h1>
+	<ul type="disc">
+		<li ><a href="saber+.html">saber+</a></li>
+		<li ><a href="sugestoes.html">Sugestões</a></li>
+		<li ><a href="feedback.html">Feedbacks</a></li>
+	</ul>
+	</nav>
+	</header>
+	<form method="post" id="fContato" action="mailto:">
+<fieldset id="usuario">
+<legend>Identificação</legend>
+    <p><label for="cNome">Nome:</label>
+	<input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"></p>
+	<p><label for="cMail">E-mail:</label>
+	<input type="email" name="tMail" id="cMail" size="20" maxlength="40" placeholder="Endereço de E-mail"></p>
+    <fieldset id ="sexo"><legend>Sexo</legend>
+        <input type="radio" name="tSexo" id="cMasc"> <label for="cMasc">Masculino</label><br>
+        <input type="radio" name="tSexo" id="cFem"><label for="cFem">Feminino</label>
+	</fieldset>
+    <p><label for="cNasc">Data de Nascimento:</label>
+	<input type="date" name="tNasc" id="cNasc"></p>
+</fieldset>
+
+<fieldset id="endereco">
+<legend>Endereço</legend>
+	<p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Endereço"></p>
+    <p><label for="cNum">Número:</label><input type="number" name="tNum" id="cNum" min="0" max="99999"></p>
+    <p><label for="cEst">Estado:</label>
+	<select name="tEst" id="cEst">
+		
+		<optgroup label="Região Norte">
+			<option value="AM">Amazonas</option>
+			<option value="RR">Roraima</option>
+			<option value="AP">Amapá</option>
+			<option value="PA">Pará</option>
+			<option value="TO">Tocantins</option>
+			<option value="RO">Rondônia</option>
+			<option value="AC">Acre</option>
+		</optgroup>
+	
+		<optgroup label="Região Nordeste">
+			<option value="MA">Maranhão</option>
+			<option value="PI">Piauí</option>
+			<option value="CE">Ceará</option>
+			<option value="RN">Rio Grande do Norte</option>
+			<option value="PE">Pernambuco</option>
+			<option value="PB">Paraíba</option>
+			<option value="SE">Sergipe</option>
+			<option value="AL">Alagoas</option>
+			<option value="BA">Bahia</option>
+		</optgroup>
+		
+		<optgroup label="Região Centro-Oeste">
+			<option value="MT">Mato Grosso</option>
+			<option value="MS">Mato Grosso do Sul</option>
+			<option value="GO">Goiás</option>
+			<option value="DF">Brasilia</option>
+		</optgroup>
+	
+		<optgroup label="Região Sudeste">
+			<option value="SP">São Paulo</option>
+			<option value="RJ">Rio de Janeiro</option>
+			<option value="ES">Espírito Santo</option>
+			<option value="MG">Minas Gerais</option>
+			
+		</optgroup>
+		
+		<optgroup label="Região Sul">
+			<option value="PR">Paraná</option>
+			<option value="RS">Rio Grande do Sul</option>
+			<option value="SC">Santa Catarina</option>
+		</optgroup>
+	</select></p>
+    
+	
+	<p><label for="cCid">Cidade:</label>
+	<input type="text" name="tCit" id="cCid" maxlength="40" size="20" placeholder="Sua Cidade" list="cidades">
+	</p>
+	<datalist id="cidades">
+		<option value="Rio de Janeiro"></option>
+		<option value="Nova Iguaçu"></option>
+		<option value="Niterói"></option>
+		<option value="Belford Roxo"></option>
+	</datalist>
+</fieldset>
+
+<fieldset id="mensagem">
+<legend>Mensagem do Usuário</legend>
+    <p><label for="cMsg">Mensagem:</label>
+	<textarea name="tMsg" id="cMsg" cols="45" rows="7"  placeholder="Deixe aqui sua mensagem"></textarea></p>
+</fieldset>
+<input type="submit" value="Enviar" id="cEnviar" >
+</form>
+
+<footer id="rodape">
+<p>Copyright &copy; 2019 - by João & Daniel & Marcelle</p>
+<p id="social">
+<a id="facebook" href="https://www.facebook.com" target="_blank"><img src="imagens/face.png" width="50" height="50"></a> 
+<a id="twitter" href="https://twitter.com" target="_blank"><img src="imagens/twitter.png"width="50"height="50" ></a> 
+<a id="instagram" href="https://www.instagram.com" target="_blank"><img src="imagens/insta.png"width="50"height="50"></a>  
+</p>
+</footer>
+</body>
+</html>

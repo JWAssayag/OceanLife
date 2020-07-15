@@ -1,0 +1,53 @@
+@charset "UTF-8";
+h1#ola{
+	font-size: 70px;
+}
+p#text-princ{
+	font-size: 40px;
+}
+p#text-sec{
+	font-size: 25px;
+}
+h2 {
+    
+    font-family: 'Montserrat', sans-serif;
+	font-size: 25pt;
+	padding: 15px 0px 15px 20px;
+	margin: 10px 0px 10px 0px;
+	border: none;
+	border-top: 1px solid #000000;
+	padding-right: 15px;
+	text-shadow: 2px 2px 3px #354040;
+}
+
+figure.foto-legenda {
+	position: relative; 
+}
+figure.foto-legenda img{
+	width: 50%;
+	height: 50%;
+	
+}
+figure.foto-legenda figcaption{
+	opacity: 0;
+	position: absolute;
+	top:0px;
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	width: 50%;
+	height:100%;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: opacity 1s;
+}
+
+figcaption p{
+	font-size: 15px;
+	padding-left: 5px;
+}
+figure.foto-legenda:hover figcaption{
+	opacity:1;
+}
+a#site:hover{
+	text-decoration:underline;
+}
